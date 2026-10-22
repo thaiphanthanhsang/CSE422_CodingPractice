@@ -1,0 +1,116 @@
+is_global = true
+build_property.TargetFramework = net10.0
+build_property.TargetFramework = net10.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.EntryPointFilePath = 
+build_property.RootNamespace = DeviceManagement
+build_property.RootNamespace = DeviceManagement
+build_property.ProjectDir = D:\Sang\CSE422\DeviceManagement\DeviceManagement\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 10.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Sang\CSE422\DeviceManagement\DeviceManagement
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/Sang/CSE422/DeviceManagement/DeviceManagement/Views/DeviceCategories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sang/CSE422/DeviceManagement/DeviceManagement/Views/DeviceCategories/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlQ2F0ZWdvcmllc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sang/CSE422/DeviceManagement/DeviceManagement/Views/DeviceCategories/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlQ2F0ZWdvcmllc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sang/CSE422/DeviceManagement/DeviceManagement/Views/DeviceCategories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlQ2F0ZWdvcmllc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sang/CSE422/DeviceManagement/DeviceManagement/Views/DeviceCategories/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlQ2F0ZWdvcmllc1xfRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sang/CSE422/DeviceManagement/DeviceManagement/Views/Devices/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sang/CSE422/DeviceManagement/DeviceManagement/Views/Devices/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sang/CSE422/DeviceManagement/DeviceManagement/Views/Devices/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sang/CSE422/DeviceManagement/DeviceManagement/Views/Devices/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sang/CSE422/DeviceManagement/DeviceManagement/Views/Devices/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV2aWNlc1xfRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sang/CSE422/DeviceManagement/DeviceManagement/Views/Employees/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sang/CSE422/DeviceManagement/DeviceManagement/Views/Employees/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sang/CSE422/DeviceManagement/DeviceManagement/Views/Employees/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sang/CSE422/DeviceManagement/DeviceManagement/Views/Employees/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sang/CSE422/DeviceManagement/DeviceManagement/Views/Employees/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXF9Gb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sang/CSE422/DeviceManagement/DeviceManagement/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sang/CSE422/DeviceManagement/DeviceManagement/Views/Shared/_Alerts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BbGVydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sang/CSE422/DeviceManagement/DeviceManagement/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sang/CSE422/DeviceManagement/DeviceManagement/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sang/CSE422/DeviceManagement/DeviceManagement/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Sang/CSE422/DeviceManagement/DeviceManagement/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-02bh15zxm3

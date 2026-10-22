@@ -1,0 +1,44 @@
+﻿@using DeviceManagement.ViewModels
+@model DeviceFormViewModel
+
+<form asp-action="@ViewContext.RouteData.Values["action"]" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Code" class="form-label"></label>
+        <input asp-for="Code" class="form-control" />
+        <span asp-validation-for="Code" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="DeviceCategoryId" class="form-label"></label>
+        <select asp-for="DeviceCategoryId" class="form-select" asp-items="Model.Categories">
+            <option value="">-- Select category --</option>
+        </select>
+        <span asp-validation-for="DeviceCategoryId" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Status" class="form-label"></label>
+        <select asp-for="Status" class="form-select" asp-items="Html.GetEnumSelectList<DeviceStatus>()"></select>
+        <span asp-validation-for="Status" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="EntryDate" class="form-label"></label>
+        <input asp-for="EntryDate" class="form-control" />
+        <span asp-validation-for="EntryDate" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="EmployeeId" class="form-label"></label>
+        <select asp-for="EmployeeId" class="form-select" asp-items="Model.Employees">
+            <option value="">-- Unassigned --</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a class="btn btn-secondary" asp-action="Index">Cancel</a>
+</form>
+
+

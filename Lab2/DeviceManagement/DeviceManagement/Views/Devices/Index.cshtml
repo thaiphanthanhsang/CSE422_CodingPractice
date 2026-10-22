@@ -1,0 +1,55 @@
+﻿@using DeviceManagement.ViewModels
+@using Microsoft.AspNetCore.Mvc.Rendering
+@model DeviceListViewModel
+@{ ViewData["Title"] = "Devices"; }
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2>Devices</h2>
+    <a class="btn btn-primary" asp-action="Create">+ Add device</a>
+</div>
+
+<form method="get" class="row g-2 mb-3">
+    <div class="col-md-4">
+        <input name="keyword" value="@Model.Keyword" class="form-control" placeholder="Search by name or code" />
+    </div>
+    <div class="col-md-3">
+        <select name="categoryId" class="form-select" asp-items="Model.Categories">
+            <option value="">All categories</option>
+        </select>
+    </div>
+    <div class="col-md-3">
+        <select name="status" class="form-select" asp-for="Status" asp-items="Html.GetEnumSelectList<DeviceStatus>()">
+            <option value="">All statuses</option>
+        </select>
+    </div>
+    <div class="col-md-2 d-flex gap-2">
+        <button class="btn btn-primary" type="submit">Filter</button>
+        <a class="btn btn-outline-secondary" asp-action="Index">Reset</a>
+    </div>
+</form>
+
+<table class="table table-striped align-middle">
+    <thead><tr><th>Name</th><th>Code</th><th>Category</th><th>Status</th><th>Date of entry</th><th>Employee</th><th></th></tr></thead>
+    <tbody>
+    @foreach (var d in Model.Devices)
+    {
+        <tr>
+            <td>@d.Name</td>
+            <td>@d.Code</td>
+            <td>@d.DeviceCategory?.Name</td>
+            <td>@Html.DisplayFor(_ => d.Status)</td>
+            <td>@d.EntryDate.ToString("yyyy-MM-dd")</td>
+            <td>@(d.Employee?.FullName ?? "—")</td>
+            <td class="text-end">
+                <a class="btn btn-sm btn-outline-secondary" asp-action="Edit" asp-route-id="@d.Id">Edit</a>
+                <a class="btn btn-sm btn-outline-danger" asp-action="Delete" asp-route-id="@d.Id">Delete</a>
+            </td>
+        </tr>
+    }
+    @if (!Model.Devices.Any())
+    {
+        <tr><td colspan="7" class="text-center text-muted">No devices found.</td></tr>
+    }
+    </tbody>
+</table>
+

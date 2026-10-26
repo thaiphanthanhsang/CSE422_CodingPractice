@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Sang\\CSE422\\LibraryManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B82C701A-72F0-4D72-B1E3-2C21C80231B6}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\sang\\cse422\\librarymanagementsystem\\librarymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82C701A-72F0-4D72-B1E3-2C21C80231B6}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82C701A-72F0-4D72-B1E3-2C21C80231B6}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\sang\\cse422\\librarymanagementsystem\\librarymanagementsystem\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82C701A-72F0-4D72-B1E3-2C21C80231B6}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82C701A-72F0-4D72-B1E3-2C21C80231B6}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\sang\\cse422\\librarymanagementsystem\\librarymanagementsystem\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82C701A-72F0-4D72-B1E3-2C21C80231B6}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82C701A-72F0-4D72-B1E3-2C21C80231B6}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\sang\\cse422\\librarymanagementsystem\\librarymanagementsystem\\models\\bookrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82C701A-72F0-4D72-B1E3-2C21C80231B6}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\models\\bookrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82C701A-72F0-4D72-B1E3-2C21C80231B6}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\sang\\cse422\\librarymanagementsystem\\librarymanagementsystem\\models\\bookclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82C701A-72F0-4D72-B1E3-2C21C80231B6}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\models\\bookclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82C701A-72F0-4D72-B1E3-2C21C80231B6}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\sang\\cse422\\librarymanagementsystem\\librarymanagementsystem\\transactions\\borrowtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82C701A-72F0-4D72-B1E3-2C21C80231B6}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\transactions\\borrowtransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82C701A-72F0-4D72-B1E3-2C21C80231B6}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\sang\\cse422\\librarymanagementsystem\\librarymanagementsystem\\models\\librarycard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82C701A-72F0-4D72-B1E3-2C21C80231B6}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\models\\librarycard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82C701A-72F0-4D72-B1E3-2C21C80231B6}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\sang\\cse422\\librarymanagementsystem\\librarymanagementsystem\\models\\premiummember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82C701A-72F0-4D72-B1E3-2C21C80231B6}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\models\\premiummember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82C701A-72F0-4D72-B1E3-2C21C80231B6}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\sang\\cse422\\librarymanagementsystem\\librarymanagementsystem\\services\\advancednotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82C701A-72F0-4D72-B1E3-2C21C80231B6}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\services\\advancednotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B82C701A-72F0-4D72-B1E3-2C21C80231B6}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\sang\\cse422\\librarymanagementsystem\\librarymanagementsystem\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B82C701A-72F0-4D72-B1E3-2C21C80231B6}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\services\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryManagementSystem\\LibraryManagementSystem\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Models\\Book.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryManagementSystem\\LibraryManagementSystem\\Models\\Book.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T10:50:23.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BookRecord.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryManagementSystem\\LibraryManagementSystem\\Models\\BookRecord.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Models\\BookRecord.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryManagementSystem\\LibraryManagementSystem\\Models\\BookRecord.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Models\\BookRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T10:50:22.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookClass.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryManagementSystem\\LibraryManagementSystem\\Models\\BookClass.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Models\\BookClass.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryManagementSystem\\LibraryManagementSystem\\Models\\BookClass.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Models\\BookClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T10:50:20.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BorrowTransaction.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryManagementSystem\\LibraryManagementSystem\\Transactions\\BorrowTransaction.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Transactions\\BorrowTransaction.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryManagementSystem\\LibraryManagementSystem\\Transactions\\BorrowTransaction.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Transactions\\BorrowTransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T10:50:18.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LibraryCard.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryManagementSystem\\LibraryManagementSystem\\Models\\LibraryCard.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Models\\LibraryCard.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryManagementSystem\\LibraryManagementSystem\\Models\\LibraryCard.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Models\\LibraryCard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T10:50:15.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Member.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryManagementSystem\\LibraryManagementSystem\\Models\\Member.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Models\\Member.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryManagementSystem\\LibraryManagementSystem\\Models\\Member.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Models\\Member.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T10:50:09.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryManagementSystem\\LibraryManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Program.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryManagementSystem\\LibraryManagementSystem\\Program.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T10:49:55.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c3d4e5f6-a7b8-9012-cdef-ab3456789012}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PremiumMember.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryManagementSystem\\LibraryManagementSystem\\Models\\PremiumMember.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Models\\PremiumMember.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryManagementSystem\\LibraryManagementSystem\\Models\\PremiumMember.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Models\\PremiumMember.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T10:50:02.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdvancedNotificationService.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryManagementSystem\\LibraryManagementSystem\\Services\\AdvancedNotificationService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Services\\AdvancedNotificationService.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryManagementSystem\\LibraryManagementSystem\\Services\\AdvancedNotificationService.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Services\\AdvancedNotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T10:50:01.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryManagementSystem\\LibraryManagementSystem\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Services\\NotificationService.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryManagementSystem\\LibraryManagementSystem\\Services\\NotificationService.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Services\\NotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-26T10:49:58.546Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

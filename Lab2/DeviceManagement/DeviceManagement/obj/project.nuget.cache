@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KJmGcScxbJg=",
+  "dgSpecHash": "BXvm7arH1/g=",
   "success": true,
-  "projectFilePath": "D:\\Sang\\CSE422\\DeviceManagement\\DeviceManagement\\DeviceManagement.csproj",
+  "projectFilePath": "D:\\Sang\\CSE422\\Lab2\\DeviceManagement\\DeviceManagement\\DeviceManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sangt\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\sangt\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",

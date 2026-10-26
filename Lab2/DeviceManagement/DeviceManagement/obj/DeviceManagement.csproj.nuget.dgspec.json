@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Sang\\CSE422\\DeviceManagement\\DeviceManagement\\DeviceManagement.csproj": {}
+    "D:\\Sang\\CSE422\\Lab2\\DeviceManagement\\DeviceManagement\\DeviceManagement.csproj": {}
   },
   "projects": {
-    "D:\\Sang\\CSE422\\DeviceManagement\\DeviceManagement\\DeviceManagement.csproj": {
+    "D:\\Sang\\CSE422\\Lab2\\DeviceManagement\\DeviceManagement\\DeviceManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sang\\CSE422\\DeviceManagement\\DeviceManagement\\DeviceManagement.csproj",
+        "projectUniqueName": "D:\\Sang\\CSE422\\Lab2\\DeviceManagement\\DeviceManagement\\DeviceManagement.csproj",
         "projectName": "DeviceManagement",
-        "projectPath": "D:\\Sang\\CSE422\\DeviceManagement\\DeviceManagement\\DeviceManagement.csproj",
+        "projectPath": "D:\\Sang\\CSE422\\Lab2\\DeviceManagement\\DeviceManagement\\DeviceManagement.csproj",
         "packagesPath": "C:\\Users\\sangt\\.nuget\\packages\\",
-        "outputPath": "D:\\Sang\\CSE422\\DeviceManagement\\DeviceManagement\\obj\\",
+        "outputPath": "D:\\Sang\\CSE422\\Lab2\\DeviceManagement\\DeviceManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,48 @@
+digraph SOLID {
+  graph [rankdir=LR, bgcolor="white", pad="0.25", nodesep="0.35", ranksep="0.60", splines=polyline,
+         fontname="DejaVu Sans", labelloc="t", label="LIBRARY MANAGEMENT - UML CLASS OVERVIEW", fontsize=20];
+  node [shape=record, style="rounded,filled", color="#355272", fillcolor="#eef4f9", fontname="DejaVu Sans", fontsize=10, margin="0.15,0.10"];
+  edge [color="#62768b", arrowsize=0.75, fontname="DejaVu Sans", fontsize=9];
+
+  Book [label="{Book (abstract)|Id, Title, Author, Category, Quantity|+ BorrowOne()\l+ ReturnOne()\l}", fillcolor="#e8f1fb"];
+  PrintedBook [label="{PrintedBook|TypeName = Printed Book}"];
+  EBook [label="{EBook|FileFormat}"];
+  Magazine [label="{Magazine|IssueNumber}"];
+  Reader [label="{Reader|Id, Name}", fillcolor="#e8f1fb"];
+  Loan [label="{Loan|Id, ReaderId, BookId\lBorrowedAt, ReturnedAt, IsActive\l}", fillcolor="#e8f1fb"];
+
+  IBookRepository [label="{«interface» IBookRepository|Add(), GetById(), GetAll()}", fillcolor="#fff4dc"];
+  IReaderRepository [label="{«interface» IReaderRepository|Add(), GetById(), GetAll()}", fillcolor="#fff4dc"];
+  ILoanRepository [label="{«interface» ILoanRepository|Add(), GetAll()}", fillcolor="#fff4dc"];
+  IBorrowingPolicy [label="{«interface» IBorrowingPolicy|EnsureCanBorrow()}", fillcolor="#fff4dc"];
+  IBookFactory [label="{«interface» IBookFactory|Create() : Book}", fillcolor="#fff4dc"];
+
+  BookService [label="{BookService|Add()\lSearchByTitle()\lSearchByCategory()\l}", fillcolor="#e8f8f2"];
+  ReaderService [label="{ReaderService|Add(), GetAll()}", fillcolor="#e8f8f2"];
+  LendingService [label="{LendingService|Borrow(), Return()}", fillcolor="#e8f8f2"];
+  ReportService [label="{ReportService|GenerateBorrowingReport()}", fillcolor="#e8f8f2"];
+  MaxThreeBooksPolicy [label="{MaxThreeBooksPolicy|Limit = 3}", fillcolor="#e8f8f2"];
+  InMemoryBookRepository [label="{InMemoryBookRepository|Dictionary of Book}"];
+  InMemoryReaderRepository [label="{InMemoryReaderRepository|Dictionary of Reader}"];
+  InMemoryLoanRepository [label="{InMemoryLoanRepository|Dictionary of Loan}"];
+
+  PrintedBook -> Book [arrowhead=empty];
+  EBook -> Book [arrowhead=empty];
+  Magazine -> Book [arrowhead=empty];
+  Reader -> Loan [label="1 to many", arrowhead=vee, style=dashed];
+  Book -> Loan [label="1 to many", arrowhead=vee, style=dashed];
+  InMemoryBookRepository -> IBookRepository [arrowhead=empty, style=dashed];
+  InMemoryReaderRepository -> IReaderRepository [arrowhead=empty, style=dashed];
+  InMemoryLoanRepository -> ILoanRepository [arrowhead=empty, style=dashed];
+  MaxThreeBooksPolicy -> IBorrowingPolicy [arrowhead=empty, style=dashed];
+  BookService -> IBookRepository [label="uses"];
+  ReaderService -> IReaderRepository [label="uses"];
+  LendingService -> IBookRepository [label="uses"];
+  LendingService -> IReaderRepository [label="uses"];
+  LendingService -> ILoanRepository [label="uses"];
+  LendingService -> IBorrowingPolicy [label="uses"];
+  ReportService -> IBookRepository [label="uses"];
+  ReportService -> IReaderRepository [label="uses"];
+  ReportService -> ILoanRepository [label="uses"];
+  IBookFactory -> Book [label="creates", style=dashed];
+}

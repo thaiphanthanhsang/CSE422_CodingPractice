@@ -1,0 +1,23 @@
+digraph UML_Dependencies {
+  graph [rankdir=LR, bgcolor="white", pad="0.2", nodesep="0.33", ranksep="0.9", splines=polyline];
+  node [shape=record, style="rounded,filled", color="#375678", fillcolor="#e8f9f0", fontname="DejaVu Sans", fontsize=12, margin="0.16,0.14"];
+  edge [color="#58718b", arrowsize=0.8, fontsize=11, fontname="DejaVu Sans"];
+  BookService [label="{BookService|Add(), Search...()}"];
+  ReaderService [label="{ReaderService|Add(), Get...()}"];
+  LendingService [label="{LendingService|Borrow(), Return()}"];
+  ReportService [label="{ReportService|GenerateReport()}"];
+  node [fillcolor="#fff1d7"];
+  IBookRepository [label="{«interface» IBookRepository|Add(), GetById(), GetAll()}"];
+  IReaderRepository [label="{«interface» IReaderRepository|Add(), GetById(), GetAll()}"];
+  ILoanRepository [label="{«interface» ILoanRepository|Add(), GetAll()}"];
+  IBorrowingPolicy [label="{«interface» IBorrowingPolicy|EnsureCanBorrow()}"];
+  BookService -> IBookRepository;
+  ReaderService -> IReaderRepository;
+  LendingService -> IBookRepository;
+  LendingService -> IReaderRepository;
+  LendingService -> ILoanRepository;
+  LendingService -> IBorrowingPolicy;
+  ReportService -> IBookRepository;
+  ReportService -> IReaderRepository;
+  ReportService -> ILoanRepository;
+}

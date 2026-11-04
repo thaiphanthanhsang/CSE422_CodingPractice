@@ -1,0 +1,17 @@
+digraph UML_Domain {
+  graph [rankdir=TB, bgcolor="white", pad="0.2", nodesep="0.5", ranksep="0.7", splines=true];
+  node [shape=record, style="rounded,filled", color="#375678", fillcolor="#f0f5ff", fontname="DejaVu Sans", fontsize=13, margin="0.14,0.12"];
+  edge [fontname="DejaVu Sans", fontsize=11, color="#58718b", arrowsize=0.9];
+  Book [label="{Book (abstract)|+ Id: int\l+ Title: string\l+ Author: string\l+ Category: string\l+ Quantity: int\l|+ BorrowOne()\l+ ReturnOne()\l}", fillcolor="#dceafa"];
+  PrintedBook [label="{PrintedBook|+ TypeName}"];
+  EBook [label="{EBook|+ FileFormat}"];
+  Magazine [label="{Magazine|+ IssueNumber}"];
+  Reader [label="{Reader|+ Id: int\l+ Name: string\l}", fillcolor="#fff5e1"];
+  Loan [label="{Loan|+ Id: int\l+ ReaderId: int\l+ BookId: int\l+ BorrowedAt\l+ ReturnedAt\l+ IsActive\l}", fillcolor="#e9f7e9"];
+  {rank=same; PrintedBook EBook Magazine}
+  PrintedBook -> Book [arrowhead=empty];
+  EBook -> Book [arrowhead=empty];
+  Magazine -> Book [arrowhead=empty];
+  Reader -> Loan [label="1 to 0..*", arrowhead=vee, style=dashed];
+  Book -> Loan [label="1 to 0..*", arrowhead=vee, style=dashed];
+}

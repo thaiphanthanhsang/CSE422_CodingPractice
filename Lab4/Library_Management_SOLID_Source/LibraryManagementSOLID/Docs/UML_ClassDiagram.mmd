@@ -1,0 +1,125 @@
+classDiagram
+    direction LR
+
+    class Book {
+      <<abstract>>
+      +int Id
+      +string Title
+      +string Author
+      +string Category
+      +int Quantity
+      +string TypeName
+      +BorrowOne() void
+      +ReturnOne() void
+    }
+    class PrintedBook
+    class EBook {
+      +string FileFormat
+    }
+    class Magazine {
+      +int IssueNumber
+    }
+    Book <|-- PrintedBook
+    Book <|-- EBook
+    Book <|-- Magazine
+
+    class Reader {
+      +int Id
+      +string Name
+    }
+    class Loan {
+      +int Id
+      +int ReaderId
+      +int BookId
+      +DateTimeOffset BorrowedAt
+      +DateTimeOffset ReturnedAt
+      +bool IsActive
+      +MarkReturned(time) void
+    }
+    Reader "1" --> "0..*" Loan : borrows
+    Book "1" --> "0..*" Loan : borrowed as
+
+    class IBookRepository {
+      <<interface>>
+      +Add(Book) void
+      +GetById(id) Book
+      +GetAll() Books
+    }
+    class IReaderRepository {
+      <<interface>>
+      +Add(Reader) void
+      +GetById(id) Reader
+      +GetAll() Readers
+    }
+    class ILoanRepository {
+      <<interface>>
+      +Add(Loan) void
+      +GetAll() Loans
+    }
+    class IBorrowingPolicy {
+      <<interface>>
+      +EnsureCanBorrow(readerId, bookId, activeLoans) void
+    }
+    class IBookFactory {
+      <<interface>>
+      +string Key
+      +string DisplayName
+      +Create(...) Book
+    }
+    class IBookService {
+      <<interface>>
+      +Add(Book) void
+      +GetById(id) Book
+      +GetAll() Books
+      +SearchByTitle(keyword) Books
+      +SearchByCategory(keyword) Books
+    }
+    class IReaderService {
+      <<interface>>
+      +Add(Reader) void
+      +GetById(id) Reader
+      +GetAll() Readers
+    }
+    class ILendingService {
+      <<interface>>
+      +Borrow(readerId, bookId) Loan
+      +Return(readerId, bookId) void
+    }
+    class IReportService {
+      <<interface>>
+      +GenerateBorrowingReport() string
+    }
+
+    class InMemoryBookRepository
+    class InMemoryReaderRepository
+    class InMemoryLoanRepository
+    class BookService
+    class ReaderService
+    class LendingService
+    class ReportService
+    class MaxThreeBooksPolicy
+    class PrintedBookFactory
+    class EBookFactory
+    class MagazineFactory
+
+    IBookRepository <|.. InMemoryBookRepository
+    IReaderRepository <|.. InMemoryReaderRepository
+    ILoanRepository <|.. InMemoryLoanRepository
+    IBorrowingPolicy <|.. MaxThreeBooksPolicy
+    IBookService <|.. BookService
+    IReaderService <|.. ReaderService
+    ILendingService <|.. LendingService
+    IReportService <|.. ReportService
+    IBookFactory <|.. PrintedBookFactory
+    IBookFactory <|.. EBookFactory
+    IBookFactory <|.. MagazineFactory
+
+    BookService ..> IBookRepository
+    ReaderService ..> IReaderRepository
+    LendingService ..> IBookRepository
+    LendingService ..> IReaderRepository
+    LendingService ..> ILoanRepository
+    LendingService ..> IBorrowingPolicy
+    ReportService ..> IReaderRepository
+    ReportService ..> IBookRepository
+    ReportService ..> ILoanRepository

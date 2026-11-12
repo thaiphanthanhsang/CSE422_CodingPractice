@@ -1,0 +1,369 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|d:\\sang\\cse422\\librarydesignpatterns_simple\\librarydesignpatterns_simple\\strategy\\newspaperfeestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|solutionrelative:strategy\\newspaperfeestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|d:\\sang\\cse422\\librarydesignpatterns_simple\\librarydesignpatterns_simple\\strategy\\magazinefeestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|solutionrelative:strategy\\magazinefeestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|d:\\sang\\cse422\\librarydesignpatterns_simple\\librarydesignpatterns_simple\\strategy\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|solutionrelative:strategy\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|d:\\sang\\cse422\\librarydesignpatterns_simple\\librarydesignpatterns_simple\\strategy\\ifeestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|solutionrelative:strategy\\ifeestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|d:\\sang\\cse422\\librarydesignpatterns_simple\\librarydesignpatterns_simple\\strategy\\bookfeestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|solutionrelative:strategy\\bookfeestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|d:\\sang\\cse422\\librarydesignpatterns_simple\\librarydesignpatterns_simple\\observer\\usersubscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|solutionrelative:observer\\usersubscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|d:\\sang\\cse422\\librarydesignpatterns_simple\\librarydesignpatterns_simple\\observer\\librarynotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|solutionrelative:observer\\librarynotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|d:\\sang\\cse422\\librarydesignpatterns_simple\\librarydesignpatterns_simple\\observer\\isubscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|solutionrelative:observer\\isubscriber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|d:\\sang\\cse422\\librarydesignpatterns_simple\\librarydesignpatterns_simple\\factorymethod\\bookcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|solutionrelative:factorymethod\\bookcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|d:\\sang\\cse422\\librarydesignpatterns_simple\\librarydesignpatterns_simple\\factorymethod\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|solutionrelative:factorymethod\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|d:\\sang\\cse422\\librarydesignpatterns_simple\\librarydesignpatterns_simple\\factorymethod\\documentcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|solutionrelative:factorymethod\\documentcreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|d:\\sang\\cse422\\librarydesignpatterns_simple\\librarydesignpatterns_simple\\factorymethod\\idocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|solutionrelative:factorymethod\\idocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|d:\\sang\\cse422\\librarydesignpatterns_simple\\librarydesignpatterns_simple\\factorymethod\\magazine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|solutionrelative:factorymethod\\magazine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|d:\\sang\\cse422\\librarydesignpatterns_simple\\librarydesignpatterns_simple\\factorymethod\\newspaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|solutionrelative:factorymethod\\newspaper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|d:\\sang\\cse422\\librarydesignpatterns_simple\\librarydesignpatterns_simple\\factorymethod\\newspapercreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|solutionrelative:factorymethod\\newspapercreator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|d:\\sang\\cse422\\librarydesignpatterns_simple\\librarydesignpatterns_simple\\database\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|solutionrelative:database\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|d:\\sang\\cse422\\librarydesignpatterns_simple\\librarydesignpatterns_simple\\librarydesignpatterns.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|solutionrelative:librarydesignpatterns.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|d:\\sang\\cse422\\librarydesignpatterns_simple\\librarydesignpatterns_simple\\services\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|solutionrelative:services\\libraryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/LibraryDB/True/SqlTable/dbo.Documents.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|d:\\sang\\cse422\\librarydesignpatterns_simple\\librarydesignpatterns_simple\\sql\\createdatabase.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|solutionrelative:sql\\createdatabase.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|d:\\sang\\cse422\\librarydesignpatterns_simple\\librarydesignpatterns_simple\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{FEEC90ED-4790-6FD3-2A20-9EA823F41411}|LibraryDesignPatterns.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewspaperFeeStrategy.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\Strategy\\NewspaperFeeStrategy.cs",
+              "RelativeDocumentMoniker": "Strategy\\NewspaperFeeStrategy.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\Strategy\\NewspaperFeeStrategy.cs",
+              "RelativeToolTip": "Strategy\\NewspaperFeeStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T03:34:51.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MagazineFeeStrategy.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\Strategy\\MagazineFeeStrategy.cs",
+              "RelativeDocumentMoniker": "Strategy\\MagazineFeeStrategy.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\Strategy\\MagazineFeeStrategy.cs",
+              "RelativeToolTip": "Strategy\\MagazineFeeStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T03:34:38.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Loan.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\Strategy\\Loan.cs",
+              "RelativeDocumentMoniker": "Strategy\\Loan.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\Strategy\\Loan.cs",
+              "RelativeToolTip": "Strategy\\Loan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T03:34:26.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IFeeStrategy.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\Strategy\\IFeeStrategy.cs",
+              "RelativeDocumentMoniker": "Strategy\\IFeeStrategy.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\Strategy\\IFeeStrategy.cs",
+              "RelativeToolTip": "Strategy\\IFeeStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T03:34:11.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserSubscriber.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\Observer\\UserSubscriber.cs",
+              "RelativeDocumentMoniker": "Observer\\UserSubscriber.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\Observer\\UserSubscriber.cs",
+              "RelativeToolTip": "Observer\\UserSubscriber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T03:29:37.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Magazine.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\FactoryMethod\\Magazine.cs",
+              "RelativeDocumentMoniker": "FactoryMethod\\Magazine.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\FactoryMethod\\Magazine.cs",
+              "RelativeToolTip": "FactoryMethod\\Magazine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T03:23:57.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookFeeStrategy.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\Strategy\\BookFeeStrategy.cs",
+              "RelativeDocumentMoniker": "Strategy\\BookFeeStrategy.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\Strategy\\BookFeeStrategy.cs",
+              "RelativeToolTip": "Strategy\\BookFeeStrategy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T03:24:37.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IDocument.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\FactoryMethod\\IDocument.cs",
+              "RelativeDocumentMoniker": "FactoryMethod\\IDocument.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\FactoryMethod\\IDocument.cs",
+              "RelativeToolTip": "FactoryMethod\\IDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T03:24:19.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DocumentCreator.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\FactoryMethod\\DocumentCreator.cs",
+              "RelativeDocumentMoniker": "FactoryMethod\\DocumentCreator.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\FactoryMethod\\DocumentCreator.cs",
+              "RelativeToolTip": "FactoryMethod\\DocumentCreator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T03:24:17.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\FactoryMethod\\Book.cs",
+              "RelativeDocumentMoniker": "FactoryMethod\\Book.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\FactoryMethod\\Book.cs",
+              "RelativeToolTip": "FactoryMethod\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T03:24:07.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BookCreator.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\FactoryMethod\\BookCreator.cs",
+              "RelativeDocumentMoniker": "FactoryMethod\\BookCreator.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\FactoryMethod\\BookCreator.cs",
+              "RelativeToolTip": "FactoryMethod\\BookCreator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T03:24:06.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Newspaper.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\FactoryMethod\\Newspaper.cs",
+              "RelativeDocumentMoniker": "FactoryMethod\\Newspaper.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\FactoryMethod\\Newspaper.cs",
+              "RelativeToolTip": "FactoryMethod\\Newspaper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T03:24:03.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ISubscriber.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\Observer\\ISubscriber.cs",
+              "RelativeDocumentMoniker": "Observer\\ISubscriber.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\Observer\\ISubscriber.cs",
+              "RelativeToolTip": "Observer\\ISubscriber.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T11:32:55.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LibraryNotifier.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\Observer\\LibraryNotifier.cs",
+              "RelativeDocumentMoniker": "Observer\\LibraryNotifier.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\Observer\\LibraryNotifier.cs",
+              "RelativeToolTip": "Observer\\LibraryNotifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T11:32:56.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NewspaperCreator.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\FactoryMethod\\NewspaperCreator.cs",
+              "RelativeDocumentMoniker": "FactoryMethod\\NewspaperCreator.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\FactoryMethod\\NewspaperCreator.cs",
+              "RelativeToolTip": "FactoryMethod\\NewspaperCreator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-12T03:24:01.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LibraryDesignPatterns",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns.csproj",
+              "RelativeDocumentMoniker": "LibraryDesignPatterns.csproj",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns.csproj",
+              "RelativeToolTip": "LibraryDesignPatterns.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-12T02:55:30.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LibraryService.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\Services\\LibraryService.cs",
+              "RelativeDocumentMoniker": "Services\\LibraryService.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\Services\\LibraryService.cs",
+              "RelativeToolTip": "Services\\LibraryService.cs",
+              "ViewState": "AgIAANIAAAAAAAAAAAAuwO4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T11:33:06.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "dbo.Documents.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/LibraryDB/True/SqlTable/dbo.Documents.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/LibraryDB/True/SqlTable/dbo.Documents.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-11-05T11:24:16.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\Database\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "Database\\DatabaseConnection.cs",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\Database\\DatabaseConnection.cs",
+              "RelativeToolTip": "Database\\DatabaseConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T11:18:25.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-11-05T11:15:51.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CreateDatabase.sql",
+              "DocumentMoniker": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\Sql\\CreateDatabase.sql",
+              "RelativeDocumentMoniker": "Sql\\CreateDatabase.sql",
+              "ToolTip": "D:\\Sang\\CSE422\\LibraryDesignPatterns_Simple\\LibraryDesignPatterns_Simple\\Sql\\CreateDatabase.sql",
+              "RelativeToolTip": "Sql\\CreateDatabase.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-11-05T11:15:48.563Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
